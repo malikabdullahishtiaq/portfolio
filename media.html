@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Favourite social media posts, embedded YouTube videos, and images.">
+  <meta name="author" content="[Your Name]">
+  <title>Portfolio | Favourite Media</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="brand">MALIK ABDULLAH ISHTIAQ — Portfolio</p>
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <a href="index.html">Home</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="media.html" class="active">Favourite Media</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Favourite Media</h1>
+      <p>Left column features social posts and images; right column features five YouTube videos.</p>
+
+      <div class="media-layout">
+        <!-- Left Column: Social Media Posts / Screenshots + Local & Online Images -->
+        <div class="media-col">
+          <article class="post-box">
+            <h2>Social Post / Screenshot 1</h2>
+            <p class="muted">@dev_community &bull; Web Standards &amp; CSS Grid</p>
+            <p>
+              "Clean semantic HTML5 makes pages easier to read, maintain, and validate without
+              unnecessary wrapper elements."
+            </p>
+          </article>
+
+          <article class="post-box">
+            <h2>Social Post / Screenshot 2</h2>
+            <p class="muted">@campus_tech &bull; Git Workflow Tip</p>
+            <p>
+              "Small, descriptive commits make it effortless to track how your project evolved
+              from first draft to live site."
+            </p>
+          </article>
+
+          <article class="post-box">
+            <h2>Local Image</h2>
+            <img src="images/local-photo.jpg" alt="Local campus or workspace photo" class="media-photo">
+            <p class="muted">Stored locally in <code>images/local-photo.jpg</code>.</p>
+          </article>
+
+          <article class="post-box">
+            <h2>Online Image</h2>
+            <img
+              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80"
+              alt="Laptop showing code on a desk"
+              class="media-photo"
+            >
+            <p class="muted">Loaded from an external image URL.</p>
+          </article>
+        </div>
+
+        <!-- Right Column: At Least 5 Embedded YouTube Videos -->
+        <div class="media-col">
+          <article class="video-box">
+            <h2>Video 1: CSS Grid Crash Course</h2>
+            <iframe
+              class="video-frame"
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_1"
+              title="YouTube video 1"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </article>
+
+          <article class="video-box">
+            <h2>Video 2: Flexbox Layout Guide</h2>
+            <iframe
+              class="video-frame"
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"
+              title="YouTube video 2"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </article>
+
+          <article class="video-box">
+            <h2>Video 3: Semantic HTML5 Best Practices</h2>
+            <iframe
+              class="video-frame"
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_3"
+              title="YouTube video 3"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </article>
+
+          <article class="video-box">
+            <h2>Video 4: Responsive Web Design</h2>
+            <iframe
+              class="video-frame"
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_4"
+              title="YouTube video 4"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </article>
+
+          <article class="video-box">
+            <h2>Video 5: Git &amp; GitHub Pages Basics</h2>
+            <iframe
+              class="video-frame"
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_5"
+              title="YouTube video 5"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 MALIK ABDULLAH ISHTIAQ (41135). Built for CSC337 Web Programming Languages.</p>
+  </footer>
+</body>
+</html>
